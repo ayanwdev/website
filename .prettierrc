@@ -5,5 +5,11 @@
   "singleQuote": false,
   "trailingComma": "all",
   "bracketSpacing": true,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "plugins": [
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-organize-imports"
+  ],
+  "tailwindStylesheet": "./app/globals.css",
+  "tailwindAttributes": ["className"]
 }
