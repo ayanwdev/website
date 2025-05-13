@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 body {
-  @apply flex bg-zinc-900 text-slate-100 antialiased;
+  @apply bg-zinc-900 text-slate-100 antialiased;
 }

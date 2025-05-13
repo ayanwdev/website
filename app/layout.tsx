@@ -1,20 +1,6 @@
+import { mPlus1 } from "@/app/lib/fonts";
 import type { Metadata } from "next";
-import { Luckiest_Guy, M_PLUS_1 } from "next/font/google";
 import "./globals.css";
-
-export const mPlus1 = M_PLUS_1({
-  subsets: ["latin"],
-  variable: "--font-m-plus-1",
-  display: "swap",
-  weight: ["400", "600", "700"],
-});
-
-export const luckiestGuy = Luckiest_Guy({
-  subsets: ["latin"],
-  variable: "--font-luckiest-guy",
-  weight: "400",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",

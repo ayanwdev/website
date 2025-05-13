@@ -1,17 +1,17 @@
+import { silkScreen } from "@/app/lib/fonts";
 import Link from "next/link";
-import { luckiestGuy } from "../layout";
 
 const navLinks = ["about", "projects", "contact", "blog"];
 
 export default function Nav() {
   return (
-    <nav className="flex w-screen p-8">
-      <section className="flex w-full flex-row justify-between border-b-2 border-b-slate-500 p-2">
-        <div className="flex flex-row">
+    <nav className="flex w-screen pl-8 pr-8 pt-2">
+      <section className="flex w-full flex-row justify-between border-b-2 border-b-slate-500 p-2 ">
+        <div className="flex flex-row items-center">
           <div>
             <Link
               href="/"
-              className={`${luckiestGuy.className} text-4xl text-yellow-400 hover:underline`}
+              className={`${silkScreen.className} text-4xl text-yellow-400 hover:underline`}
             >
               {"AYANW"}
             </Link>
@@ -32,7 +32,7 @@ export default function Nav() {
         </div>
         <div className="flex items-baseline">
           <span
-            className={`${luckiestGuy.className} flex items-center justify-center rounded-sm bg-blue-500 p-2 pb-1`}
+            className={`${silkScreen.className} text-xl cursor-pointer flex items-center justify-center rounded-sm bg-blue-500 text-white p-1 pl-2 pr-2 hover:bg-white hover:text-blue-500 transition duration-100`}
           >
             {"HIRE ME"}
           </span>
